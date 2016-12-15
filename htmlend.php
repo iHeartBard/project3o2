@@ -1,3 +1,4 @@
+<!-- html markup for the sponsors and partners -->
 	<div class="support_sponsors">
 	<div class="sponsors_img">
 		<img src="img/viborgkommune.jpg" alt="viborg kommune">
@@ -8,6 +9,7 @@
 	<div class="sponsors_img europeancapital">
 		<img src="img/europeancapital.jpg" alt="european capital of culture">
 	</div>
+<!-- html markup for the footer -->
 </div>
 		<footer>
 			<div class="col-sm-4">
@@ -44,7 +46,9 @@
 		</footer>
 <!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- jQuery for the datepicker -->
 	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
 <!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/panorama.js"></script>

@@ -2,6 +2,7 @@
     include("htmlstart.php");
     start("Anidox 2017 |", "Welcome to Aarhus 2017");
 ?>
+<!-- html markup for the panorama and front page -->
     <div>
     	<section class="centertext">
     		<p class="quote">

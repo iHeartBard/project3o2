@@ -2,19 +2,22 @@
     include "htmlstart.php";
     start("Participate |", "Upload you video and have a chance to win!");
 ?>
-
+<!-- separate stylesheet for page load -->
 <link rel="stylesheet" type="text/css" href="res/additional.css">
 
+<!-- participate page html markup -->
 <div class="opaque_image_participate"></div>
 <div class="page_wrap">
 	<article>
 	<h2>VIDEO <br> APPLICATION</h2>
 	<p>Share your creativity with us and have a chance for your video to be selected as one of the official videos promoting Aarhus European Capital of Culture in 2017.<br>All fields are required!</p>
 	</article>
+<!-- form for sharing a video -->
 <div class="upload_form">
 	<div class="aarhus_img"><img src="img/2017.png" alt="aarhus 2017"></div>
 	<h3 class="sub">Fill out the form to share your video!</h3>
 	<div class="opaque_form"></div>
+	<!-- form targets video_database.php to execute the action -->
 	<form action="video_database.php" method="POST">
 		<section class="form user">
 			<h2> Full name </h2>
@@ -55,6 +58,7 @@
 	</form>
 </div>
 </div>
+<!-- opaque container for the form wrap -->
 <div class="opaque_container"></div>
 <?php
 	include("htmlend.php");

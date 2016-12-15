@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- declaring meta tags, title and implementing links for css, bootstrap and favicon -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,11 +12,10 @@
     <link rel="stylesheet" type="text/css" href="res/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="res/style.css">
-    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="img/favicon.ico" >
-
 </head>
+<!-- header and navigation html markup -->
 <body>
     <div class="panorama"> 
     <div class="logolinks">

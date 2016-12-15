@@ -1,3 +1,4 @@
+/*individual elements styling*/
 html{
   margin: 0px;
   padding: 0px;
@@ -37,6 +38,7 @@ h3:hover{
   opacity: 0.9;
 }
 
+/*logo, panorama and frontpage styling*/
 .logo {
   padding: 0px;
   float: left;
@@ -93,18 +95,6 @@ img.rethink{
   margin-top: 3%;
   text-align: center;
   margin-bottom: 2%;
-}
-
-.headline{
-  margin: 5%;
-  padding-left: 38%;
-  padding-top: 3%;
-  border-top: solid white;
-  border-width: 1px; 
-}
-.vote{
-  margin: 5%;
-  padding-top: 3%; 
 }
 
 article.main{
@@ -249,12 +239,12 @@ section.form.video{
   
   background: #000;
 }
+
+/*Gallery page styling*/
 .page_wrap article {
   width: 70%;
   margin: 0 auto;
 }
-
-
 
 .page_wrap article h3 {
   float: none;
@@ -267,6 +257,7 @@ section.form.video{
 .page_wrap .flex_arrange h2 {
   margin: 0;
 }
+/*styling for the echoed php data/*/
 .video_wrap {
   width: 90%;
   height: 400px;
@@ -299,11 +290,12 @@ section.form.video{
 .video_info article {
   width: 100%;
 }
+
 .video_info h2 {
   font-size: 40px;
   font-weight: bold;
   color: #fff;
-    text-align: center;
+  text-align: center;
 }
 
 .video_info h3 {
@@ -326,7 +318,7 @@ section.form.video{
   height: 500px;
   position: absolute;
 }
-
+/*contact form styling*/
 #contact_form {
   width: 70%;
   margin: 10px auto;
@@ -363,7 +355,7 @@ section.form.video{
   background-repeat: no-repeat;
   z-index: -1;
 }
-
+/*sponsors bar and footer styling*/
 .support_sponsors {
   width: 100%;
   height: 10%;
@@ -401,6 +393,7 @@ section.form.video{
   margin-top: 100px;
 }
 
+/*media queries*/
 @media (min-width: 1715px) {
 .page_wrap article h2 {
   font-size: 50px;
